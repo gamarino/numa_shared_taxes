@@ -1,0 +1,189 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* numa_shared_taxes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 8.0alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-09 00:12+0000\n"
+"PO-Revision-Date: 2014-03-09 00:12+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: numa_shared_taxes
+#: model:ir.model,name:numa_shared_taxes.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Línea de orden de compra"
+
+#. module: numa_shared_taxes
+#: help:res.company,fiscal_country:0
+msgid "Country to be used for fiscal issues"
+msgstr "País a ser usado como base a efectos fiscales"
+
+#. module: numa_shared_taxes
+#: help:res.country,payments_applicable_taxes:0
+msgid "Taxes used in payments, for all companies operating in the country"
+msgstr "Impuestos usados en pagos, para todas las compañías operando en el país"
+
+#. module: numa_shared_taxes
+#: help:res.company,payments_applicable_taxes:0
+msgid "Taxes used for payments, specific to this company"
+msgstr "Impuestos usados en pagos, específicos de esta compañía"
+
+#. module: numa_shared_taxes
+#: help:res.country,sales_applicable_taxes:0
+msgid "Taxes used for sales, for all companies operating in the country"
+msgstr "Impuestos a las ventas, para todas las compañías que operan en el país"
+
+#. module: numa_shared_taxes
+#: view:sale.order:0
+msgid "product_id_change(parent.pricelist_id, product_id, product_uom_qty, False, product_uos_qty, False, name, parent.partner_id, False, True, parent.date_order, False, parent.fiscal_position, False, context, company_id)"
+msgstr "product_id_change(parent.pricelist_id, product_id, product_uom_qty, False, product_uos_qty, False, name, parent.partner_id, False, True, parent.date_order, False, parent.fiscal_position, False, context, company_id)"
+
+#. module: numa_shared_taxes
+#: help:res.company,fiscal_country_state:0
+msgid "Country state to be used for fiscal issues"
+msgstr "Estado federal/Provincia a usar a efectos fiscales"
+
+#. module: numa_shared_taxes
+#: help:res.country.state,sales_applicable_taxes:0
+msgid "Taxes used for sales, for all companies operating in the country state"
+msgstr "Impuestos a las ventas, para todas las compañías operando en el estado/provincia"
+
+#. module: numa_shared_taxes
+#: view:purchase.order:0
+msgid "onchange_product_id(parent.pricelist_id,product_id,product_qty,product_uom,parent.partner_id,parent.date_order,parent.fiscal_position,date_planned,name,price_unit,context,company_id)"
+msgstr "onchange_product_id(parent.pricelist_id,product_id,product_qty,product_uom,parent.partner_id,parent.date_order,parent.fiscal_position,date_planned,name,price_unit,context,company_id)"
+
+#. module: numa_shared_taxes
+#: view:sale.order:0
+msgid "product_uom_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, context, company_id)"
+msgstr "product_uom_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, context, company_id)"
+
+#. module: numa_shared_taxes
+#: view:sale.order:0
+msgid "product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, False, parent.fiscal_position, True, context, company_id)"
+msgstr "product_id_change(parent.pricelist_id,product_id,product_uom_qty,product_uom,product_uos_qty,product_uos,name,parent.partner_id, False, False, parent.date_order, False, parent.fiscal_position, True, context, company_id)"
+
+#. module: numa_shared_taxes
+#: field:res.country,payments_applicable_taxes:0
+msgid "Country wide payment taxes"
+msgstr "Impuestos nacionales a los pagos"
+
+#. module: numa_shared_taxes
+#: field:res.company,fiscal_country_state:0
+msgid "Fiscal country state"
+msgstr "Estado federal/Provincia a usar a efectos fiscales"
+
+#. module: numa_shared_taxes
+#: help:res.country.state,taxes:0
+msgid "Applicable taxes on a federal state"
+msgstr "Impuestos aplicables en estado federal/provincia"
+
+#. module: numa_shared_taxes
+#: view:purchase.order:0
+msgid "onchange_product_uom(parent.pricelist_id,product_id,product_qty,product_uom,parent.partner_id, parent.date_order,parent.fiscal_position,date_planned,name,price_unit,context,company_id)"
+msgstr "onchange_product_uom(parent.pricelist_id,product_id,product_qty,product_uom,parent.partner_id, parent.date_order,parent.fiscal_position,date_planned,name,price_unit,context,company_id)"
+
+#. module: numa_shared_taxes
+#: field:res.company,sales_applicable_taxes:0
+msgid "Company specific sales taxes"
+msgstr "Impuestos a las ventas específicos de la compañía"
+
+#. module: numa_shared_taxes
+#: view:res.country:0
+msgid "Country Taxes"
+msgstr "Impuestos nacionales"
+
+#. module: numa_shared_taxes
+#: field:account.tax,country:0
+#: model:ir.model,name:numa_shared_taxes.model_res_country
+msgid "Country"
+msgstr "País"
+
+#. module: numa_shared_taxes
+#: model:ir.model,name:numa_shared_taxes.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: numa_shared_taxes
+#: field:res.country,country_taxes:0
+#: field:res.country.state,taxes:0
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: numa_shared_taxes
+#: view:res.country.state:0
+msgid "Country State Taxes"
+msgstr "Impuestos Provinciales"
+
+#. module: numa_shared_taxes
+#: help:res.country,country_taxes:0
+msgid "Legal taxes used in the country"
+msgstr "Impuestos legales"
+
+#. module: numa_shared_taxes
+#: help:res.company,sales_applicable_taxes:0
+msgid "Taxes used for sales, specific to this company"
+msgstr "Impuestos a las ventas, específicos de la compañía"
+
+#. module: numa_shared_taxes
+#: view:purchase.order:0
+msgid "onchange_product_id(parent.pricelist_id,product_id,0,False,parent.partner_id, parent.date_order,parent.fiscal_position,date_planned,name,price_unit,context,company_id)"
+msgstr "onchange_product_id(parent.pricelist_id,product_id,0,False,parent.partner_id, parent.date_order,parent.fiscal_position,date_planned,name,price_unit,context,company_id)"
+
+#. module: numa_shared_taxes
+#: field:res.company,payments_applicable_taxes:0
+msgid "Company specific payment taxes"
+msgstr "Impuestos a los pagos específicos de esta compañía"
+
+#. module: numa_shared_taxes
+#: field:res.country.state,payments_applicable_taxes:0
+msgid "State wide sale payment taxes"
+msgstr "Impuestos a las ventas del estado/provincia"
+
+#. module: numa_shared_taxes
+#: help:res.country.state,payments_applicable_taxes:0
+msgid "Taxes used for payments, for all companies operating in the country state"
+msgstr "Impuestos usados en pagos, para todas las compañías que operan en el estado federal/provincia"
+
+#. module: numa_shared_taxes
+#: field:res.country.state,sales_applicable_taxes:0
+msgid "State wide sales taxes"
+msgstr "Impuestos provinciales a las ventas"
+
+#. module: numa_shared_taxes
+#: field:res.country,sales_applicable_taxes:0
+msgid "Country wide sales taxes"
+msgstr "Impuestos nacionales a las ventas"
+
+#. module: numa_shared_taxes
+#: model:ir.model,name:numa_shared_taxes.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: numa_shared_taxes
+#: field:res.company,fiscal_country:0
+msgid "Fiscal country"
+msgstr "País a los efectos fiscales"
+
+#. module: numa_shared_taxes
+#: view:res.company:0
+msgid "Company specific Taxes"
+msgstr "Impuestos específicos de la compañía"
+
+#. module: numa_shared_taxes
+#: model:ir.model,name:numa_shared_taxes.model_res_country_state
+msgid "Country state"
+msgstr "Provincia"
+
+#. module: numa_shared_taxes
+#: model:ir.model,name:numa_shared_taxes.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea pedido de venta"
+
